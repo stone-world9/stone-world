@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Young Serif');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Young Serif";
+  overflow-x: hidden;
+  color: #068FFF;
+  font-size: 1rem
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: 3.5rem;
+}
+
+.subheading {
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.item:not(:first-child) {
+  opacity: 0;
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.item__content {
+  background-color: #068FFF;
+  color: white;
+  text-align: center;
+  padding: 7rem;
+  border-radius: 7px;
+}
+
+.trainer > p {
+  text-align: center;
+}
+
+.left {
+  transform-origin: left center;
+  transform: translateX(50%);
+}
+
+.right {
+  transform-origin: right center;
+  transform: translateX(-50%);
+}
+
+.slide-in {
+  opacity: 1 !important;
+  transform: translateX(0);
+}

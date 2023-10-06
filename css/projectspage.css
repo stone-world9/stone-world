@@ -1,0 +1,27 @@
+h2 {
+    text-align: center;
+    background-color: lightskyblue;
+    font-size: 20px;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 25px;
+  }
+  
+  .projectsimg {
+    max-width: 80%;
+    max-height: 250px;
+    display: block;
+    margin: auto;
+    box-shadow: 5px 5px;
+  }
+  
+  .header {
+    text-align: center;
+  }

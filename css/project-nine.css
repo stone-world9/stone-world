@@ -1,0 +1,89 @@
+.body {
+    background-color: #00D7FF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+  }
+  
+  main {
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "container container wrapper wrapper"
+    "container container wrapper wrapper"
+    "footer footer footer footer";
+  }
+  
+  .header {
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    min-height: 70vh;
+    font-size: 3.5rem;
+  }
+  
+  
+  .container {
+    grid-area: container;
+  }
+  
+  .wrapper {
+   grid-area: wrapper;
+  }
+  
+  .footer {
+    grid-area: footer;
+  }
+  
+  #slider {
+    position: relative;
+    width: 500px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #slider img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+  }
+  
+  #slider img.active {
+    opacity: 1;
+  }
+  
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 3px solid #fff;
+    border-radius: 50%;
+    width: 65px;
+    height: 75px;
+    background-color: gray;
+    color: black;
+    font-size: 35px;
+    font-stretch: condensed;
+    cursor: pointer;
+    transition: all 150ms ease-in-out;
+  }
+  
+  button:hover {
+    background-color: lightgray;
+  }
+  
+  button#first {
+    left: 25px;
+    padding: 8px 19px 8px 17px;
+  }
+  
+  button#last {
+    right: -25px;
+    padding: 8px 17px 8px 19px;
+  }

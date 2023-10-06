@@ -1,0 +1,71 @@
+body {
+    padding: 1%;
+    background-color: rgb(114, 234, 247);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .center {
+    border-style: outset;
+    text-align: center;
+    background-color: black;
+    border-color: green;
+    color: rgb(114, 234, 247);
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: gainsboro;
+  }
+  
+  li {
+    display: inline;
+    padding: 25px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  section {
+    background-color: black;
+    color: rgb(114, 234, 247);
+  }
+  
+  div {
+    padding-bottom: 10px;
+  }
+  
+  .summary {
+    background-color: black;
+    color: snow;
+    border-style: groove;
+    padding: 5px;
+  }
+  
+  p {
+    text-indent: 20px;
+    text-align: center;
+    padding-right: 20px;
+  }
+  
+  .inquiry {
+    color: sandybrown;
+    background-image: url(bballsunset.jpg);
+    background-size: contain;
+    padding: 30px;
+  }
+  
+  .grid {
+    display: grid;
+    border-style: ridge;
+  }
+  
+  #footborder {
+    background-color: black;
+  }
+  
+  form {
+    text-align: center;
+  }

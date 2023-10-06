@@ -1,0 +1,50 @@
+.body {
+    background-color: #00D7FF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  main {
+    display: grid;
+    grid-template-areas:
+      "header header header header"
+      "container container wrapper wrapper"
+      "container container wrapper wrapper"
+      "footer footer footer footer";
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    min-height: 70vh;
+    font-size: 3.5rem;
+    padding: 100px;
+  }
+  
+  .container {
+    grid-area: container;
+    padding: 25px;
+    margin-left: 20px;
+  }
+  
+  .wrapper {
+    grid-area: wrapper;
+  }
+  
+  .footer {
+    grid-area: footer;
+    text-align: center;
+  }
+  
+  h4 {
+    font-style: italic;
+  }
+  
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  li {
+    font-family: Arial, Helvetica, sans-serif;
+  }

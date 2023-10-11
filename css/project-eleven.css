@@ -1,0 +1,136 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  body {
+    padding: 1%;
+    background-color: rgb(114, 234, 247);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .center {
+    border-style: outset;
+    text-align: center;
+    background-color: black;
+    border-color: green;
+    color: rgb(114, 234, 247);
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: gainsboro;
+  }
+  
+  li {
+    display: inline;
+    padding: 25px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  section {
+    background-color: black;
+    color: rgb(114, 234, 247);
+  }
+  
+  div {
+    padding-bottom: 10px;
+  }
+  
+  .summary {
+    background-color: black;
+    color: snow;
+    border-style: groove;
+    padding: 5px;
+  }
+  
+  p {
+    text-indent: 20px;
+    text-align: center;
+    padding-right: 20px;
+  }
+  
+  .inquiry {
+    color: sandybrown;
+    background-image: url(bballsunset.jpg);
+    background-size: contain;
+    padding: 30px;
+  }
+  
+  .grid {
+    display: grid;
+    border-style: ridge;
+  }
+  
+  #footborder {
+    background-color: black;
+  }
+  
+  form {
+    text-align: center;
+    justify-content: center;
+  }
+  
+  #form-submitted-msg {
+    margin-bottom: 3rem;
+    border-radius: 3px;
+    background-color: rgb(67, 161, 67);
+    padding: 0.5rem;
+    width: 40%;
+    text-align: center;
+    color: #54B435;
+    display: contents;
+  }
+  
+  #inquiryForm {
+    width: 100%;
+  }
+  
+  .input-group {
+    margin-bottom: 2em;
+  }
+  
+  input[type=text], [type=email] {
+    border: 2px solid red;
+    border-radius: 4px;
+  }
+  
+  .input-group:not(.radio):not(.checkbox) {
+    gap: 0.5rem;
+    flex-direction: column;
+  } 
+  
+  .input-group:not(.radio):not(.checkbox) input {
+    width: 100%;
+    border-radius: 0.5rem !important; 
+  } 
+  
+  .input-group.checkbox {
+    gap: 1rem;
+  }
+  
+  .form-btns {
+    display: flex;
+    width: 100%;
+    gap: 1.5rem;
+    margin-top: 3rem;
+  }
+  
+  .form-btns > button {
+    padding: 0.5rem 2rem;
+  }
+  
+  .form-btns > .submit {
+    padding-inline: 4rem;
+  }
+  
+  .error-msg {
+    color: red; 
+  }
